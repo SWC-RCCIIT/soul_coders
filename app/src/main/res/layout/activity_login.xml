@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FEFEFE"
+        android:weightSum="7"
+        android:orientation="vertical"
+        tools:context=".login">
+
+        <TextView
+            android:id="@+id/mainHeading"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#1A237E"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="JAN DHAN DARSHAK"
+            android:textColor="#FFFF"
+            android:textSize="24sp"
+            />
+
+        <ImageView
+            android:id="@+id/mainLogo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#FFFF"
+            android:layout_weight="1"
+            app:layout_constraintBottom_toTopOf="@+id/userLogin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mainHeading"
+            app:layout_constraintVertical_bias="0.541"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/loc12" />
+
+        <EditText
+            android:id="@+id/userLogin"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:ems="10"
+            android:hint="Enter Username"
+            android:inputType="text"
+
+            />
+
+        <EditText
+            android:id="@+id/userPassword"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="LOG IN"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:textSize="22sp"
+                android:background="#1A237E"
+                android:textColor="#FFFF"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/dontAcc"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="Dont have an account?"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/signupLink"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Sign Up"
+            android:textSize="18sp"
+            android:paddingBottom="50dp"
+            />
+
+
+    </LinearLayout>
+
+

@@ -31,12 +31,12 @@
         android:layout_marginRight="15dp" />
 
     <EditText
-        android:id="@+id/newUserid"
+        android:id="@+id/newUsernamr"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:ems="10"
-        android:hint="Create Userid"
+        android:hint="Create Username"
         android:inputType="textPersonName"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
@@ -64,51 +64,51 @@
         android:inputType="textPersonName"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"/>
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="0dp"
-    android:layout_weight="1"
-    android:weightSum="4"
-    android:layout_marginLeft="15dp"
-    android:layout_marginRight="15dp"
-    android:orientation="horizontal">
-
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="3"
-        android:gravity="center_vertical"
-        android:text="Select no of Banks"
-        android:textColor="#808080"
-        android:paddingLeft="5dp"
-        android:textSize="18sp" />
-    <Spinner
-        android:id="@+id/noOfbanks"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        android:spinnerMode="dropdown"
-         />
-</LinearLayout>
+        android:weightSum="4"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="Select no of Banks"
+            android:textColor="#808080"
+            android:paddingLeft="5dp"
+            android:textSize="18sp" />
+        <Spinner
+            android:id="@+id/noOfbanks"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:spinnerMode="dropdown"
+            />
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="vertical">
-    <Button
-        android:id="@+id/nextPage"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="Next"
-        android:layout_marginLeft="100dp"
-        android:layout_marginRight="100dp"
-        android:textSize="22sp"
-        android:background="#1A237E"
-        android:textColor="#FFFF"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
-        />
+        <Button
+            android:id="@+id/nextPage"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Next"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:textSize="22sp"
+            android:background="#1A237E"
+            android:textColor="#FFFF"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            />
     </LinearLayout>
 
 </LinearLayout>
