@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">jandhandarshak</string>
+    <string name="app_name">Jan Dhan Darshak</string>
+    <string name="title_activity_map">mapActivity</string>
 </resources>
